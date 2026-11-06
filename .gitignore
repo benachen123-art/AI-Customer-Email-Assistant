@@ -1,0 +1,25 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+
+# API 密钥和环境变量
+.env
+.env.*
+*.key
+secrets.json
+
+# 客户邮件和分析结果
+客户邮件.txt
+邮件分类结果.csv
+
+# PyInstaller 临时构建文件
+build/
+dist/
+
+# 发布程序（单独通过 GitHub Releases 发布）
+release/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
